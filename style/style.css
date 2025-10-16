@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background-color: rgba(240, 240, 240, 1);
+}
+
+main {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 15px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+label {
+    font-size: 16px;
+    padding-left: 8px;
+}
+
+input,
+select,
+textarea {
+    padding: 12px 8px;
+    border-radius: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+select:invalid {
+    color: #999999;
+}
+
+select option {
+    color: #000000;
+}
+
+div#botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div#botoes button {
+    flex: 1;
+    margin: 0 4px;
+    padding: 10px 0;
+}
+
+button {
+    padding: 8px 24px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0, 123, 255);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
