@@ -12,7 +12,7 @@
     <main>
         <section>
             <h1>Cadastro de Produto</h1>
-            <form action="#">
+            <form id="formulario" action="#">
                 <div>
                     <label for="nome">Nome do Produto</label>
                     <input type="text" id="nome" name="nome" placeholder="Ex: Mouse Sem Fio" required>
@@ -41,9 +41,10 @@
                     <textarea id="descricao" name="descricao" rows="4" placeholder="Descreva o produto..." required></textarea>
                 </div>
                 <div id="botoes">
-                    <button type="submit">Cadastrar</button>
+                    <button id="botao_cadastrar" type="submit">Cadastrar</button>
                     <button type="reset">Limpar</button>
                 </div>
+                <p id="mensagem"></p>
             </form>
         </section>
     </main>
